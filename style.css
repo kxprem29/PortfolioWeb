@@ -1,0 +1,101 @@
+body{
+    background: #a299e3a1;
+}
+.bgimage {
+    height:100vh;
+    background: url('bg2.jpg');
+    background-size:cover;
+    position:relative;
+    color: #fff;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+    color: #fff;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imageAboutPage {
+    width: 100%;
+}
+
+.navbarDark {
+    background: #000;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn-success{
+    background: #41a8bf;
+}
+
+.form-control:hover {
+    color: #cf4bac ;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover {
+    color: #fff;
+}
+.fab {
+    color: #000000;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-body {
+    background: #f9e6ff;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #cf4bac;
+}
+.servicesText:hover {
+    border: 1px solid #cf4bac;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover {
+    color: #1204a3;
+}
+.fab {
+    color: #000000;
+}
+
+#footer {
+    background-color: #98b8ce;
+    text-align: center;
+}
+
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
